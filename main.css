@@ -1,3 +1,31 @@
 body {
-    background: linear-gradient(rgba(0, 0, 255, 0.747),rgba(128, 128, 128, 0.712));
+    background: linear-gradient(rgba(128, 128, 128, 0.534),white)
+}
+a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color:red;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.295);
+}
+h1 {
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+    background-color: rgba(25, 25, 173, 0.589);
+    color:rgba(255, 255, 255, 0.822);
+    padding: 10px;
+}
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+footer {
+    font-size: small;
+    color: rgba(0, 128, 0, 0.712);
+    clear:left
+}
+img {
+    float:left;
+    padding: 15px;
 }
